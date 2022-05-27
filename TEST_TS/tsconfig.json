@@ -1,0 +1,10 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "complierOptions": {
+        "target": "ES6",
+        "outDir": "./src",
+        "strict": true
+    }
+}
