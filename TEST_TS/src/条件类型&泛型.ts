@@ -7,3 +7,5 @@ interface NameLabel {
 }
 
 type IdOrName<t extends number | string> = t extends number ? IdLabel : NameLabel
+
+// function foo<k extends string|number>(a:)
