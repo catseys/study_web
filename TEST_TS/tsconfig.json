@@ -1,10 +1,11 @@
 {
-    "include": [
-        "./src/**/*"
-    ],
-    "complierOptions": {
-        "target": "ES6",
-        "outDir": "./src",
-        "strict": true
-    }
+  "include": [
+    "./src/**/*"
+  ],
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "es2015",
+    "outDir": "./src/dist_js",
+    "strict": true
+  }
 }

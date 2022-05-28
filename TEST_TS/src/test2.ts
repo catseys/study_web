@@ -38,4 +38,4 @@ let c: c = "nice"
 //条件类型与泛型结合
 type test6<t extends number | string> = t extends number ? 123 : "s1dd"
 
-function foo<t extends string|number>(a:t):
+// function foo<t extends string|number>(a:t):
