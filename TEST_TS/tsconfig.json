@@ -2,9 +2,9 @@
     "include": [
         "./src/**/*"
     ],
-    "complierOptions": {
-        "target": "ES6",
-        "outDir": "./src",
-        "strict": true
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "outDir": "./src/page_js"
     }
 }
